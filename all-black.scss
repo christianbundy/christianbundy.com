@@ -1,0 +1,47 @@
+body {
+  background-color: #0c0c0c;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.aligned {
+  font-family: "proxima-nova";
+
+  h1 {
+    font-weight: 500;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.get-at-me {
+  color: #ccc;
+  font-weight: 300;
+}
+
+.ps {
+  font-weight: 200;
+  color: #555;
+  a {
+    &:link, &:visited {
+      color: #09BC8E;
+  }
+
+  &:hover {
+    color: #09AB7C;
+  }
+  }
+}
+}
